@@ -1,0 +1,258 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body {
+    background-color: #121212;
+}
+
+.sign-in-placeholder {
+    color: white;
+    font-family: Inter;
+}
+
+/*constant*/
+
+.welcome-message,
+.login-to-continue-message,
+.or-choice {
+    color: white;
+}
+
+/*Constant*/
+
+.main-content {
+    display: flex;
+    flex-direction: column;
+    width: 1fr;
+    align-items: center;
+    margin-top: 55px;
+}
+
+.welcome-message {
+    font-family: Inter;
+    font-weight: 500;
+}
+
+/*Constant*/
+
+.login-to-continue-message {
+    font-family: Inter;
+    color: gray;
+}
+
+/*Constant*/
+
+.or-choice {
+    font-family: Inter;
+    color: gray;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+.login-with-google,
+.login-with-github {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    border-style: solid;
+    border-color: gray;
+    background-color: rgba(128, 128, 128, 0.205);
+    color: white;
+
+    font-family: Inter;
+    font-weight: 500;
+    transition: box-shadow 0.15s ease-in-out;
+}
+
+.google-logo,
+.github-logo {
+    height: 70%;
+    mix-blend-mode: lighten;
+}
+
+.github-logo {
+    height: 60%;
+}
+.login-with-github:hover {
+    cursor: pointer;
+    background-color: rgba(128, 128, 128, 0.305);
+    box-shadow: 0 0 10px rgb(255, 175, 175);
+}
+
+.login-with-google:hover {
+    cursor: pointer;
+    background-color: rgba(128, 128, 128, 0.305);
+    box-shadow: 0 0 10px rgb(255, 175, 175);
+}
+
+@media (max-width:1920px) {
+    .welcome-message {
+font-size: 2.7rem;
+}
+
+    .login-to-continue-message {
+
+        margin-bottom: 35px;
+        font-size: 1.1rem;
+    }
+
+    .login-with-google,
+    .login-with-github {
+        height: 3.4rem;
+        width: 18rem;
+        border-radius: 1rem;
+    }
+
+    .sign-in-placeholder {
+        font-size: 1.1rem;
+        margin-right: 18px;
+    }
+}
+
+@media (max-width:700px) {
+    .welcome-message {
+        font-size: 2rem;
+    }
+
+    .login-to-continue-message {
+        margin-top: 0rem;
+        margin-bottom: 35px;
+        font-size: 0.9rem;
+    }
+
+    .login-with-google,
+    .login-with-github {
+        height: 3rem;
+        width: 15rem;
+        border-radius: 1rem;
+    }
+
+    .sign-in-placeholder {
+        font-size: 0.9rem;
+    }
+}
+.topbar {
+    display: flex;
+    justify-content: space-between;
+    height: 80px;
+    align-items: center;
+    /* background-image: linear-gradient(75deg, rgb(22, 3, 3), rgb(3, 89, 12)); */
+    background-color: #001d14;
+    border-bottom: 2px #1be823 solid;
+}
+
+.image img {
+    width: 7%;
+    margin-left: 84px;
+}
+.navigator {
+
+    color: white;
+}
+
+.pvtcls {
+    font-size: 26px;
+}
+
+#pvtpage {
+    background-color: rgb(255, 255, 255);
+    padding: 10px 20px 10px 20px;
+    border-radius: 40px;
+    margin-left: 10px;
+    font-size: 10px;
+}
+
+.topbar image img {
+    width: 40px;
+}
+
+.navigator ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    font-size: 50px;
+}
+
+.navigator ul li {
+
+    align-items: center;
+    list-style: none;
+    font-size: medium;
+    color: white;
+}
+
+.navigator ul li .fa-home {
+    font-size: 50px;
+    color: white;
+}
+
+.navigator ul li button {
+    background-color: #03490800;
+    border: none;
+    font-size: 50px;
+}
+
+
+.navigator ul li button:hover {
+    background-color: #0baf16;
+    color: white;
+}
+
+.navigator ul li button {
+    justify-items: space-between;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.Bottom {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    align-items: center;
+    background-color: black;
+    width: 100%;
+    height: 700px;
+}
+
+.Bottom .btmhead h1 {
+    color: white;
+    text-align: center;
+    font-family: monospace;
+    font-size: 90px;
+    font-style: italic;
+}
+
+.Bottom .btmhead p {
+    text-align: center;
+    color: rgb(131, 131, 131);
+    font-size: 32px;
+}
+
+.homebtn {
+    border: none;
+    text-decoration: none;
+    background: none;
+    color: white;
+}
+
+button#pvtbtn {
+    width: 150px;
+    height: 60px;
+    border: 4px #1a8402 solid;
+    border-radius: 55px;
+    margin-left: 21px;
+    font-size: 17px;
+    color: black;
+    background-color: #37fd0a;
+    margin-right: 24px;
+}
+
+.navigator {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

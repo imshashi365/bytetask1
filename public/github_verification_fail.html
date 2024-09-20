@@ -6,10 +6,15 @@
     <title>Github Verification Failed</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" href="./styles.css">
     <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap" rel="stylesheet">
     <body>
 
         <style>
+            *{
+                margin: 0px;
+                padding: 0px;
+            }
             body {
                 background-color: black;
                 display: flex;
@@ -32,7 +37,7 @@
                 align-items: center;
                 justify-content: center;
                 backdrop-filter: blur(10px);
-                background-color: rgba(128, 128, 128, 0.137);
+                background-color: #001d14;
                 border-width: 1px;
 
             }
@@ -145,6 +150,18 @@
 
         </style>
 
+<div class="topbar">
+    <div class="image">
+        <img src="./logo.png"></img>
+    </div>
+    <div class="navigator">
+        <a href="./index.html" class="homebtn">Home</a>
+        <a href="./login_screen.html"> <button type="button" id="pvtbtn">Private Page </button></a>
+
+
+        </ul>
+    </div>
+</div>
         <div class="main-content">
             <h1 class="welcome-message">Github Verification Failed</h1>
             <div class="verification-instructions">Please Follow BYTE's Github for accesing the page</div>
@@ -153,11 +170,10 @@
                 <img class='github-logo' src="https://imgs.search.brave.com/w5LFW4ei3PC6DUOkw2jcpG1OVDzoYhDqENlECFBWUg8/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly91cGxv/YWQud2lraW1lZGlh/Lm9yZy93aWtpcGVk/aWEvY29tbW9ucy8y/LzI0L0dpdGh1Yl9s/b2dvX3N2Zy5zdmc" alt="">
                 <p class="sign-in-placeholder">Follow B.Y.T.E on Github</p>
             </button>
-            <p class="back-to-login" onclick="window.location.href='/'">
+            <p class="back-to-login" onclick="window.location.href='./login_screen.html'">
                 Back to Login
             </p>
     
-            <div class="blurred-overlay-red-line">Lorem ipsum dolor sit amet consectetur Ratione, voluptas.</div>
         </div>
     </body>
 </head>

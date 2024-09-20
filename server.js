@@ -8,7 +8,8 @@ const GoogleStrategy = require('passport-google-oauth20').Strategy;
 const axios = require('axios');
 const { Octokit } = require('@octokit/rest');
 const app = express();
-const port = process.env.PORT || 8000;
+const port = process.env.PORT || 5501;
+require('dotenv').config();
 
 app.use(cors());
 app.use(express.json());
